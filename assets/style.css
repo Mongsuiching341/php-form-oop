@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.flex-item {
+  flex: 1 1 auto;
+  border: 1px solid lightgray;
+  border-radius: 1.4rem;
+  padding: 2rem;
+}
+h5 {
+  margin-bottom: 0;
+}
+
+.oop-output {
+  background-color: #edf1d6;
+  /* padding: 1rem 2rem; */
+}
